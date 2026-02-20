@@ -1,0 +1,8 @@
+<!-- 1. Text Content Binding -->
+<h1 [textContent]="appTitle"></h1>
+
+<!-- 2. Image Source Binding -->
+<img [src]="userImageUrl" alt="User Avatar" width="150">
+
+<!-- 3. CSS Class Binding -->
+<p [class.highlighted]="isHighlighted">Todays Date: {{ currentDate | date:'fullDate' }}</p>
